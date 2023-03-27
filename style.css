@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+   
+  /* (B) BOOKS */
+  #books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .bookWrap {
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    background: #f5f5f5;
+  }
+  .bookImg {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+  }
+  .bookTitle {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+  }
+  .bookDesc {
+    font-size: 14px;
+    color: #848484;
+  }
